@@ -1,19 +1,19 @@
 {
-  "name": "express-structure-app",
-  "version": "1.0.0",
-  "description": "create express item",
-  "main": "index.js",
-  "bin": {
-    "express-structure-app": "bin/index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "create",
-    "express",
-    "item"
-  ],
-  "author": "huoxu_huoxu",
-  "license": "ISC"
+    "name": "express-structure-app",
+    "version": "1.1.5",
+    "description": "create express item",
+    "main": "index.js",
+    "bin": {
+        "express-structure-app": "bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "create",
+        "express",
+        "item"
+    ],
+    "author": "huoxu_huoxu",
+    "license": "ISC"
 }

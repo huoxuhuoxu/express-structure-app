@@ -1,6 +1,4 @@
-// cli
-
-let os = require("os");
+#!/usr/bin/env node
 let exec = require("child_process").exec;
 let fs = require("fs");
 let path = require("path");
@@ -49,7 +47,7 @@ const MAIN = async () => {
         sProjectName = argvs[0];
     }
 
-    let sAllPath = path.join(__dirname, sProjectName);
+    let sAllPath = path.join(process.cwd(), sProjectName);
     await exists_dirname(sAllPath);
     await exec_func(`git clone https://github.com/huoxuhuoxu/node-api-server.git ${sAllPath}`);
     await exec(`rm -rf ${sAllPath || './bin'}/.git`, () => {});
